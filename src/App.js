@@ -5,9 +5,14 @@ import './App.css';
 
 function App() {
   return (
+  <div className='home'>
+    <div className='search'>
+      
+    </div>
     <div className="app">
       <Sidebar />
       <TaskBoard />
+    </div>
     </div>
   );
 }
